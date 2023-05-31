@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+/* common code start*/
+body{
+	margin:0px;
+}
+
+.container{
+	width:80%;
+	height:100%;
+	margin:0px auto;
+}
+.d-flex{
+	display:flex;
+}
+a{
+	text-decoration:none;
+	display:inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ul li{
+	list-style:none;
+}
+span{
+	display:inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* common code end*/
+/*nav section start*/
+nav{
+	width:100%;
+	height:60px;
+	border-bottom:1px solid red;
+}
+.navbar{
+	
+	align-items:center;
+}
+	
+.navbar-brand{
+	flex: 1 1 10%;
+	
+}
+.navbar-brand a{
+	font-family: 'Playfair Display', serif;
+	font-size:20px;
+	font-weight:700;
+	color:rgba(0, 0, 0, 0.9);
+}	
+.navbar-nav{
+	flex: 1 1 70%;
+	
+}
+.navbar-nav ul{
+	margin:0px;
+	padding:0px;
+	justify-content:space-evenly;
+}
+.navbar-nav ul li{
+	
+}
+.navbar-nav ul li a{
+	
+	font-size:16px;
+	font-weight:400;
+	color:rgba(0, 0, 0, .7);
+	padding:10px 20px;
+	margin:0px 5px;
+	transition:.5s linear;
+	
+}
+.navbar-nav ul li a:hover{
+	color:rgba(0, 0, 0, 1);
+	
+}
+.navbar-nav ul li a span{
+	color:#fff;
+	background:#7832E2;
+	text-transform:lowercase;
+	padding:1px 4px;
+	border-radius:5px;
+	font-size:13px;
+	
+}
+
+.navbar-btn{
+	flex: 1 1 20%;
+	text-align:right;
+}
+.navbar-btn a{
+	color:#03A87C;
+	padding:6px 30px;
+	border-radius:4px;
+	background:transparent;
+	border:1px solid #03A87C;
+	transition:.5s linear;
+	
+	
+}
+.navbar-btn a:hover{
+	color:#fff;
+	background:#03A87C;
+	
+}
+
+/*nav section end*/
+
+/*header section start*/
+header{
+	
+}
+.header-area{
+	
+}
+.header-content{
+	flex:1 1 100%;
+	background:#E8F3EC;
+	padding:80px 40px;
+	box-sizing:border-box;
+}
+.header-content h1{
+	color:#212529;
+	font-size:40px;
+	font-weight:700;
+	font-family:"Playfair Display", serif;
+	margin:0px;
+}
+.header-content p{
+	color:#212529;
+	font-size:16px;
+	font-weight:400;
+	line-height:1.5;
+	font-family:'Source Sans Pro', sans-serif;
+	margin:0px;
+	
+}
+.header-content a{
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	padding: 10px 20px;
+	background: #212529;
+	border-radius:4px;
+	transition:.1s linear;
+}
+.header-content a:hover{
+	box-shadow:1px 1px 10px rgba(0,0,0,.4), -1px -1px 10px rgba(0,0,0,.4);	
+}
+.header-poster{
+	flex:1 1 100%;
+}
+.header-poster img{
+	width:100%;
+	height: 100%;
+}
+/*header section end*/
+
+/* about us section start */
+.about-us-section{
+	margin:40px 0px;
+}
+.about-us-content{
+	flex:1 1 100%;
+	margin:40px 0px;
+}
+.about-us-section{
+	margin:40px 0px;
+}
+/* about us section end */
+
+
+
